@@ -16,7 +16,7 @@
   <body>
     <header class="header">
       <section class="container">
-        <div class="logo"><a href="index.html">PORTAFOLIO GUIDO REYES</a></div>
+        <div class="logo"><a href="index.html">GUIDO REYES</a></div>
         <button class="menu-btn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,10 +49,74 @@
       </section>
     </header>
     <section class="home" id="inicio">
-      <h2>home</h2>
+      <article
+        class="hero-image"
+        style="
+          --hero-image: url('assets/hero-image-home.jpg');
+          --hero-attachment: fixed;
+        "
+      >
+        <aside
+          class="hero-image-opacity"
+          style="--hero-opacity-color: var(--black-alpha-color)"
+        >
+          <div class="hero-image-content">
+            <h2
+              class="hero-image-title"
+              style="--hero-text-color: var(--white-color)"
+            >
+              Bienvenid@s a <br />
+              mi sitio
+            </h2>
+            <a href="#contacto" class="btn">CONTACTAME</a>
+          </div>
+        </aside>
+      </article>
     </section>
     <section class="about" id="acerca">
-      <h2>acerca</h2>
+      <article>
+        <aside class="slogan">
+          <h1>Guido Reyes</h1>
+          <h5>Desarrolador Web</h5>
+        </aside>
+        <p>
+          Desde 2020 tengo experiencia en el área del desarrollo web. Mi
+          principal motivacion es aprender a ser un desarrollador
+          <i>FullStack</i>.
+        </p>
+        <p>
+          Por el momento estoy más orientado al <i>Frontend</i>, pero también
+          hago <i>Backend</i>.
+        </p>
+        <p>
+          Disfruto llevar a cabo la maquetación e interactividad de interfaces
+          web, así como la optimización, para el buen posicionamiento y el
+          rendimiento de carga de sitios y aplicaciones web. También cuento con
+          experiencia en el área de Social Media, Marketing de Contenidos y SEO.
+        </p>
+        <div>
+          <a class="btn" href="" target="_blank" rel="noopener"
+            >DESCARGA MI CV</a
+          >
+        </div>
+      </article>
+      <article>
+        <img
+          class="gray-scale"
+          src="css/assets/GuidoReyesPicture2.jpg"
+          alt="Guido Reyes"
+        />
+      </article>
+      <article>
+        <h2>Mis Habilidades</h2>
+        <div class="progress">
+          <p>
+            <b>Web <i>Fronted</i></b>
+            <b>90%</b>
+          </p>
+          <progress value="90" min="0" max="100"></progress>
+        </div>
+      </article>
     </section>
     <section class="services" id="servicios">
       <h2>servicios</h2>

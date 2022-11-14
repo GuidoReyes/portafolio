@@ -8,10 +8,8 @@
     $btnmenu.lastElementChild.classList.toggle('none');
     $menu.classList.toggle('is-active');
   });
-  const $global = d.addEventListener('click', (e) => {
+  d.addEventListener('click', (e) => {
     if (!e.target.matches('.menu a')) return false;
-    console.log($global);
-
     $btnmenu.firstElementChild.classList.remove('none');
     $btnmenu.lastElementChild.classList.add('none');
     $menu.classList.remove('is-active');
